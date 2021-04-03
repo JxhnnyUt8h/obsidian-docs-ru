@@ -1,2 +1,3 @@
 # obsidian-docs-ru
-Russian Help documentation for Obsidian
+Unofficial Russian Help documentation for Obsidian
+Discussion: [Obsidian Чат](https://t.me/obsidian_z)
