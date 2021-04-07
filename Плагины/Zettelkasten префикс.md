@@ -1,3 +1,3 @@
-Adds a new button to the left pane, which can be used to create a new file and prefix it for you using the current time. This can be beneficial if you are a follower of the Zettelkasten UID-in-filename method.
+Добавляет новую кнопку в левую панель, с помощью которой можно создать новый файл с префиксом в имени в виде текущего времени. Это может быть полезно, если вы являетесь последователем Zettelkasten метода использовать UID-в-имени-файла (уникальное имя файла).
 
-The default format is 12-digit timestamp, e.g. "202001010000".
+Форматом по умолчанию является 12-значная метка времени. Например, "202001010000".

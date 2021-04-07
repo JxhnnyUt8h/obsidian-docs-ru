@@ -1,15 +1,15 @@
-It allows you to convert from other variations of Markdown format and link convention to Obsidian format.
+Импорт Markdown-файлов позволяет преобразовать из других вариантов форматов Markdown и ссылок в формат Obsidian.
 
-Right now you can convert:
+На данный момент возможно преобразовать:
 
 - Roam #tags to [[tags]]
-- Roam `^^highlight^^` to `==highlight==`
-- Bear `::highlight::` to `==highlight==`.
-- Zettelkasten `[[UID]]` links to full links `[[UID File Name]]`
-- Zettelkasten `[[UID]]` links to pretty links `[[UID File Name|File Name]]`, which will show up as just `File Name`
+- Roam `^^highlight^^` в `==highlight==`
+- Bear `::highlight::` в `==highlight==`.
+- Zettelkasten `[[UID]]` ссылки в полные ссылки `[[UID File Name]]`
+- Zettelkasten `[[UID]]` ссылки в красивые ссылки `[[UID File Name|File Name]]`, которые отобразятся просто как `File Name`
 
 ---
 
-### Related
+### Связанные темы
 
 - [[Форматирование заметок]]

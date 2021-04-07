@@ -1,1 +1,5 @@
-Obsidian sanitizes html for security reasons. Because it runs locally, scripting vulnerabilities are a more serious problem than they would be in a web applications. Accordingly, we are probably a bit more strict than you may be used to, and you may run into issues if you try to do things like embedding `<script>` tags in a note. However, the vast majority of people will never encounter issues with this.
+Obsidian очищает html в целях безопасности.
+
+Скриптовые уязвимости представляют большую угрозу, так как код исполняется локально, в отличии от веб-приложения. 
+
+Мы, вероятно, чуть более строги, чем вы возможно ожидаете, поэтому у вас могут вознить проблемы, если вы попробуете сделать такую вещь как вложение скрипта (`<script>`). Однако подавляющее большинство пользователей никогда не столкнется с этим.
