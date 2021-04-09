@@ -158,6 +158,6 @@ If you've just published items but you are still seeing an older version, you ca
 
 ---
 
-### Related
+### Связанные темы
 
 Refer to the [[Публикация|Publish plugin]] for details on publishing your notes. 
