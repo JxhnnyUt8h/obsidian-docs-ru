@@ -2,7 +2,10 @@ When you want to add custom styles to your vault, there are two main ways to do 
 
 ## Vault styles
 
-### Themes
+### Темы
+
+
+Темы позволют переключать оформление вашего хранилища через выпадающее меню, после того как темы были добавлены в папку внутри хранилища.  
 
 Themes allow you to toggle the appearance of your vault with a dropdown menu once they have been added to your vault's theme directory.
 

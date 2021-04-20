@@ -1,126 +1,126 @@
-Obsidian supports a custom URI protocol `obsidian://` which can be used to trigger various actions within the app. This is commonly used on MacOS and mobile apps for automation and cross-app workflows.
+Obsidian поддерживает модифицированную версию URI протокола `obsidian://`, который можно использовать для запуска различных действий в приложении. Это обычно используется в MacOS и мобильных приложениях для автоматизации и выстраивания процессов работы между несколькими приложениями.
 
-If you have Obsidian installed, this link will open the app on your device: [Click here](obsidian://open)
+Если у вас установлен Obsidian, эта ссылка откроет приложение на вашем устройстве: [Нажмите здесь](obsidian://open)
 
-## Installing Obsidian URI
+## Установка Obsidian URI
 
-To make sure your operating system redirect `obsidian://` URIs to the Obsidian app, there may be additional steps you need to perform.
+Чтобы убедиться, что ваша операционная система перенаправляет URI `obsidian://` в приложение Obsidian, вам могут потребоваться дополнительные шаги.
 
-- On Windows, running the app once should be sufficient. This will register for the `obsidian://` custom protocol handler in the Windows registry.
-- On MacOS, running the app once should be sufficient, however, your app **must** be installer version 0.8.12 or later.
-- On Linux, there's a much more involved process:
-	- First, ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
-	- Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-	- If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+- В Windows достаточно запустить приложение один раз. Это зарегистрирует обработчик пользовательского протокола `obsidian://` в реестре Windows.
+- В MacOS однократного запуска приложения должно быть достаточно, однако ваше приложение **должно** иметь версию установщика 0.8.12 или новее.
+- В Linux процесс гораздо более сложный:
+	- Во-первых, убедитесь, что вы создали файл `obsidian.desktop`. [Более детально смотрите здесь](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
+	- Убедитесь, что в файле рабочего стола в поле `Exec` указано `Exec=executable %u`. Параметр `%u` используется для передачи URI `obsidian://` приложению.
+	- Если вы используете установщик AppImage, вам, возможно, придется распаковать его с помощью `Obsidian-x.y.z.AppImage --appimage-extract`. Затем убедитесь, что директива `Exec` указывает на распакованный исполняемый файл.
 
-## Using Obsidian URIs
+## Использование Obsidian URI
 
-Obsidian URIs are typically in this format:
+Obsidian URIs обычно имеют следующий формат:
 
 ```
 obsidian://action?param1=value&param2=value
 ```
 
-- The `action` is usually the action that you would like to perform.
+- `action` - это действие, которое вы хотите выполнить.
 
-### Encoding
+### Кодировка
 
-==Important==
+==Важно==
 
-Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+Убедитесь, что ваши значения правильно закодированы в URI. Например, символы прямой косой черты `/` должны кодироваться как `%2F`, а символы пробела должны кодироваться как `%20`.
 
-This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding)
+Это особенно важно, потому что неправильно закодированный «зарезервированный» символ может нарушить интерпретацию URI. [Подробнее смотри здесь](https://en.wikipedia.org/wiki/Percent-encoding)
 
-### Available actions
+### Доступные действия
 
-#### Action `open`
+#### Действие `open` (открыть)
 
-Description: Opens an Obsidian vault, and possibly open a file within that vault.
+Описание: открывает хранилище Obsidian и, возможно, открывает файл в этом хранилище. 
 
-Possible parameters:
+Возможные параметры:
 
-- `vault` can be either the vault name, or the vault ID.
-	- The vault name is simply the name of the vault folder.
-	- The vault ID is the random 16-character code assigned to the vault. This ID is unique per folder on your computer. Example: `ef6ca3e3b524d22f`. There isn't an easy way to find this ID yet, one will be offered at a later date in the vault switcher. Currently it can be found in `%appdata%/obsidian/obsidian.json` for Windows. For MacOS, replace `%appdata%` with `~/Library/Application Support/`. For Linux, replace `%appdata%` with `~/.config/`.
-- `file` can be either a file name, or a path from the vault root to the specified file.
-	- To resolve the target file, Obsidian uses the same link resolution system as a regular `[[wikilink]]` within the vault.
-	- If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-	- Using this parameter will override both `vault` and `file`.
-	- This will cause the app to search for the most specific vault which contains the specified file path.
-	- Then the rest of the path replaces the `file` parameter.
+- `vault` может быть либо именем хранилища, либо ID хранилища.
+	- Имя хранилища - это просто имя папки хранилища.
+	- ID хранилища - это случайный 16-значный код, присвоенный хранилищу. Этот идентификатор уникален для каждой папки на вашем компьютере. Пример: `ef6ca3e3b524d22f`. Пока нет простого способа найти этот идентификатор, он будет предложен позже в переключателе хранилища. В настоящее время его можно найти в `%appdata%/obsidian/obsidian.json` в Windows. Для MacOS, замените `%appdata%` на `~/Library/Application Support/`. Для Linux, замените `%appdata%` на `~/.config/`.
+- `file` может быть либо именем файла, либо путем от корня хранилища к указанному файлу.
+	- Для разрешения целевого файла Obsidian использует ту же систему разрешения ссылок, что и обычные `[[викиссылки]]` в хранилище.
+	- Если расширение файла - `md`, расширение можно не указывать.
+- `path` - абсолютный путь файловой системы к файлу.
+	- Использование этого параметра переопределит как параметр `vault`, так и `file`.
+	- Это заставит приложение искать наиболее конкретное хранилище, содержащее указанный путь к файлу.
+	- Затем оставшаяся часть пути заменяет параметр `file`.
 
-Examples:
+Примеры:
 
 - `obsidian://open?vault=my%20vault`
-	This opens the vault `my vault`. If the vault is already open, focus on the window.
+	Откроет хранилище `my vault`. Если хранилище уже открыто, произойдет фокусировка на окне.
 
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-	This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+	Это открывает хранилище с ID `ef6ca3e3b524d22f`.
 
 - `obsidian://open?vault=my%20vault&file=my%20note`
-	This opens the note `my note` in the vault `my vault`, assuming `my note` exists and the file is `my note.md`.
+	Откроет заметку `my note` в хранилище `my vault`, при условии, что `my note` существует и название файла - `my note.md`.
 
 - `obsidian://open?vault=my%20vault&file=my%20note.md`
-	This also opens the note `my note` in the vault `my vault`.
+	Также откроет заметку `my note` в хранилище `my vault`.
 
 - `obsidian://open?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-	This opens the note located at `path/to/my note` in the vault `my vault`.
+	Откроет заметку, расположенную по пути `path/to/my note` в хранилище `my vault`.
 
 - `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-	This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
+	Это будет искать любое хранилище, содержащее путь `/home/user/my vault/path/to/my note`. Затем остальная часть пути передается параметру `file`. Например, если хранилище существует в `/home/user/my vault`, то это будет эквивалентно параметру `file` установленному в `path/to/my note`.
 
 - `obsidian://open?path=D%3A%5CDocuments%5CMy%20vault%5CMy%20note`
-	This will look for any vault that contains the path `D:\Documents\My vault\My note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `D:\Documents\My vault`, then this would be equivalent to `file` parameter set to `My note`.
+	Это будет искать любое хранилище, содержащее путь `D:\Documents\My vault\My note`. Затем остальная часть пути передается параметру `file`. Например, если хранилище существует в `D:\Documents\My vault`, то это будет эквивалентно `file`, установленному в `My note`.
 	
-#### Action `search`
+#### Действие `search` (поиск)
 
-Description: Opens the search pane for a vault, and optionally perform a search query.
+Описание: открывает панель поиска для хранилища и, при необходимости, выполняет поисковый запрос. 
 
-Possible parameters:
+Возможные параметры:
 
-- `vault` can be either the vault name, or the vault ID. Same as action `open`.
-- `query` (optional) The search query to perform.
+- `vault` может быть либо именем хранилища, либо идентификатором хранилища. То же, что и в действии `open`.
+- `query` (опциональный параметр) - выполняемый поисковый запрос.
 
-Examples:
+Примеры:
 
 - `obsidian://search?vault=my%20vault`
-	This opens the vault `my vault`, and opens the search pane.
+	Это откроет хранилище `my vault` и откроет поисковую панель.
 
 - `obsidian://search?vault=my%20vault&query=MOC`
-	This opens the vault `my vault`, opens the search pane, and performs a search for `MOC`.
+	Это откроет хранилище `my vault`, откроет поисковую панель и выполнит поисковый запрос `MOC`.
 	
-#### Action `new`
+#### Действие `new` (новый)
 
-Description: Creates a new note in the vault, optionally with some content.
+Описание: создает новую заметку в хранилище, при желании с некоторым содержанием. 
 
-Possible parameters:
+Возможные параметры:
 
-- `vault` can be either the vault name, or the vault ID. Same as action `open`.
-- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `file` a vault absolute path, including the name. Will override `name` if specified.
-- `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
-- `content` (optional) the contents of the note.
-- `silent` (optional) set this if you don't want to open the new note.
+- `vault`  может быть либо именем хранилища, либо идентификатором хранилища. То же, что и в действии `open`.
+- `name` имя создаваемого файла. Если это указано, расположение файла будет выбрано на основе ваших настроек "Местоположение по умолчанию для новых заметок".
+- `file` абсолютный путь к хранилищу, включая имя. Если указано, переопределит `name`.
+- `path` глобально абсолютный путь. Работает аналогично параметру `path` в действии `open`, которое переопределяет как `vault`, так и `file`.
+- `content` (опциональный параметр)содержимое заметки.
+- `silent` (опциональный параметр) установите это, если вы не хотите открывать новую заметку.
 
-Examples:
+Примеры:
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
-	This opens the vault `my vault`, and creates a new note called `my note`.
+	Это откроет хранилище `my vault`, создаст новую заметку под названием `my note`.
 - `obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note`
-	This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+	Откроет хранилище `my vault`, создаст новую заметку с расположением `path/to/my note`.
 	
-#### Action `hook-get-address`
+#### Действие `hook-get-address` (получить )
 
-Description: Endpoint for use with [Hook](https://hookproductivity.com/). Copies a markdown link of the current focused note to the clipboard, as an `obsidian://open` URL. Use: `obsidian://hook-get-address`
+Описание: предназначено для использования с [Hook](https://hookproductivity.com/). Копирует markdown-ссылку на текущую активную заметку в буфер обмена в виде URL-адреса`obsidian://open`. Использование: `obsidian://hook-get-address`
 
-Possible parameters:
+Возможные параметры:
 
-- `vault` (optional) can be either the vault name, or the vault ID. If not provided, the current or last focused vault will be used.
+- `vault` (опциональный параметр) может быть либо именем хранилища, либо идентификатором хранилища. Если не указан, будет использоваться текущее или последнее выделенное хранилище.
 
-## Shorthand formats
+## Сокращенные форматы
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+Помимо вышеперечисленных форматов, для открытия хранилищ и файлов доступны еще два сокращенных формата записи:
 
-- `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`
-- `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`
+- `obsidian://vault/my vault/my note` эквивалентно `obsidian://open?vault=my%20vault&file=my%20note`
+- `obsidian:///absolute/path/to/my note` эквивалентно `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`

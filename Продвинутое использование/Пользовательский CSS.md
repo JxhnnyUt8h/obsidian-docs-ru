@@ -1,13 +1,13 @@
-If you are building or modifying your own css, you can open the developer tools by using `Ctrl+Shift+I` on Windows/Linux or `Cmd+Opt+I` on macOS to get information on the elements you want to customize. 
+Если вы создаете или редактируете собственную CSS тему, вы можете использовать инструменты разработчика для получения информации об элементах, которые вы хотите изменить, использовав комбинацию клавиш `Ctrl+Shift+I` на Windows/Linux или `Cmd+Opt+I` на macOS. 
 
-Changes to themes and snippets will be detected automatically and reapplied. You do not need to restart the app.
+Изменения в темах и сниппетах (фрагментах CSS) будут обнаружены автоматически и сразу применены. Для этого нет необходимости перезапускать приложение. 
 
-### New to CSS
+### Для новичков в CSS
 
-If you're new to CSS, our community has put together a quick guide to get comfortable with CSS:
+Если вы новичок в CSS, вы можете воспользоваться подсказками, которые наше сообщество собрало вместе для более комфортной работы с CSS:
 
 > [Getting Comfortable with CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
 
-Klaas also put together a helpful index of common CSS snippets that you can feel free to mix and match:
+Пользователь Klaas также собрал полезный перечень сниппетов CSS (фрагментов кода CSS, который может быть применен поверх используемой темы), которые вы можете свободно использовать и сочетать:
 
 > [Obsidian CSS Snippets (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)
