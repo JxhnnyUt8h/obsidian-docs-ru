@@ -1,136 +1,135 @@
-Obsidian Sync™ is a paid service to sync notes between vaults on various devices.
+Obsidian Sync™ – платный сервис синхронизации ваших заметок между хранилищами на различных устройствах.
 
-### How Obsidian Sync works
+### Как работает Obsidian Sync
 
-Obsidian Sync is fairly simple: once you hook up local vaults from multiple devices to the same remote vault, changes will be automatically synced between these local vaults, except for files and folders you instruct Obsidian to ignore.
+Obsidian Sync работает довольно просто: как только вы подключите локальные хранилища с нескольких устройств к одному удаленному хранилищу, изменения будут автоматически синхронизированы между этими локальными хранилищами, за исключением файлов и папок, которые вы добавите в исключения.
 
-### Features
+### Функции
 
-Currently, Obsidian Sync features:
+Функции Obsidian Sync в настоящий момент:
 
-- End-to-end encryption
-- Version history integrated into Obsidian
-- View deleted files
-- Selective sync
-	- Exclude certain folders
-	- Toggle syncing for images, audio, video, and PDF files
-- Switch between multiple remote vaults
+- Сквозное шифрование
+- История синхронизации
+- Просмотр удаленных файлов
+- Выборочная синхронизация
+	- Исключение отдельных папок
+	- Настройка синхронизации для изображений, аудио-, видео-, и PDF файлов
+- Переключение между несколькими удаленными хранилищами
 
-In the future, we'll improve Obsidian Sync with:
+В будущем мы планируем добавить в Obsidian Sync: 
 
-- Vault sharing
-- Sync `.obsidian` configurations if desired (to sync plugins and themes)
+- Совместное использование хранилища
+- Синхронизация `.obsidian` конфигурации по желанию (в том числе плагины и темы оформления)
 
+### Включение плагина Obsidian Sync
 
-### Enable Obsidian Sync plugin
+В Obsidian версии 0.9.21 и новее, вы можете включить Obsidian Sync в Настройки -> Основные плагины -> Синхронизация.
 
-In Obsidian v0.9.21 or higher, you can enable Obsidian Sync by enabling the "Sync" plugin under Settings -> Core plugins.
+### Настройка удаленных хранилищ
 
-### Setting up remote vaults
+Для начала синхронизации, пржде всего вам необходимо создать удаленное хранилище, которое хоранит ваши зашифрованные данные.
 
-To start syncing, first you need to create a remote vault that stores your encrypted data.
+Это можно сделать в Настройки -> Синхронизация -> Синхронизация хранилища -> Выбор -> Создать новое хранилище. %%#2do%%
 
-To do that, go to Setting -> Sync -> Pick remote vault -> Choose -> Create new vault.
+После его создания, вы можете сразу же подключиться к хранилищу нажав кнопку «Подлючение» напростив него.
 
-After creating it, you can immediately connect to the vault by clicking on the "Connect" button next to it.
+Вы можете либо начать синхронизацию сразу после подключения, либо выбрать папки, которые следует исключить.
 
-You can choose to either start syncing immediately after connecting, or choose folders to ignore.
+##### Установка пароля шифрования
 
-##### Set encryption password 
+По умолчанию вам необходимо установить пароль шифрования для вашего хранилища. Этот пароль используется для шифрования и дешифрования ваших данных и крайне важен. 
 
-By default, you need to set an encryption password for your vault. This password is used to encrypt and decrypt your data and is extremely important.
+Вам будет предложено ввести пароль каждый раз, когда вы настраиваете синхронизацию с зашифрованным хранилищем. ==Если вы забудете или потеряете пароль, ваши данные навсегда останутся зашифрованными и непригодными для использования. Мы не можем восстановить ваш пароль или какие-либо зашифрованные данные для вас.== Ваши локальные файлы не пострадают.
 
-You'll be asked for the password any time you setup sync with an encrypted vault. ==If you forget or lose the password, your data will remain encrypted and unusable forever. We are unable to recover your password or any encrypted data for you.== Your local files are not affected.
+Вы также можете отключить параметр «Пользовательский пароль сквозного шифрования», чтобы оставить управление ключом шифрования нам. Это по-прежнему достаточно безопасно и позволяет не запоминать пароль.
 
-You can also choose to turn off the "Custom end-to-end password" option to leave managing the encryption key to us. This is still fairly secure and provides the convenience of not having to remember a password.
+### Проверка статуса синхронизации
 
-### Check sync status
+После подключения к удаленному хранилищу вы можете проверить текущий статус синхронизации в нижней строке состояния. Вы можете навести указатель мыши на значок статуса, чтобы узнать больше о том, что происходит.
 
-After connecting to a remote vault, you can check the current sync status in the bottom status bar. You can hover over the status icon to read more about what's going on.
+При нажатии на значок статуса откроются настройки синхронизации.
 
-Clicking on the status icon will open up sync settings as a shortcut.
+### История синхронизации
 
-### Version history
+Когда вы редактируете свои заметки, версии сохраняются примерно каждые 10 секунд. ==История синхронизации доступна только для заметок, но не для вложений.==
 
-As you edit your notes, versions are saved approximately every 10 seconds. ==Version history is only available for notes, not attachments.==
+Вы можете щелкнуть правой кнопкой мыши файл на панели файлового проводника, чтобы увидеть историю его синхронизации. Эта опция также доступна в меню дополнительных параметров.
 
-You can right click a file in the file explorer pane to see its version history. This option is also available in the more options menu.
+Выбрав версию в левом столбце на экране истории синхронизации, вы можете восстановить файл до этой версии, нажав кнопку «Восстановить». 
 
-After selecting a version in the left column in the version history screen, you can restore the file to this version by clicking on the "Restore" button.
+### Просмотр удаленных файлов
 
-### Deleted files
+После удаления файла, вы можете увидеть их в Настройки -> Синхронизация -> Удаленные файлы -> Открыть.
 
-After you delete a file, you can view it in Setting -> Sync -> Deleted files -> View.
+При нажатии на удаленный файл открывается история его версий. Затем вы можете восстановить файл до предыдущей версии.
 
-Clicking on a deleted file will open its version history. You can then choose to restore the file back to a previous version.
+### Выборочная синхронизация
 
-### Selective sync
+Вы можете выборочно синхронизировать файлы по папкам или типам файлов. ==Выборочная синхронизация применяется только к будущим изменениям. Любые файлы, которые уже были загружены, не будут удалены, даже если вы исключите их. Пожалуйста убедитесь в том, что настроили это перед запуском процесса синхронизации.==
 
-You can selectively sync files by folder or file type. ==Selective sync only applies to future changes. Any files that have already been uploaded will not be deleted even if you choose to ignore them. Please be sure to configure it before starting the sync process.==
+##### Исключение папок
 
-##### Exclude folders
+Вы можете снять флаги с папок в Настройки -> Синхронизация -> Исключения -> Настроить для предотвращения их синхронизации.
 
-You can uncheck folders in Settings -> Sync -> Excluded folders -> Manage to prevent them from getting synced.
+Исключенные папки будут игнорироваться как при загрузке, так и при скачивании изменений.
 
-Excluded folders will be ignored when both uploading and download changes.
+#### Типы файлов
 
-#### File types
+Вы можете настроить синхронизацию для изображений, аудио-, видео- и PDF-файлов в Настройки -> Синхронизация -> Выборочная синхронизация.
 
-You can toggle sync for images, audio, video, and PDF files under Settings -> Sync -> Selective sync.
+### Часто задаваемые вопросы
 
-### FAQ
+##### Что такое сквозное шифрование?
 
-##### What is end-to-end encryption?
+Сквозное шифрование означает, что данные шифруются с того момента, как они покидают ваше устройство, и могут быть расшифрованы только с помощью вашего ключа шифрования, как только они вернутся на одно из ваших устройств.
 
-End-to-end encryption means the data is encrypted from the moment it leaves your device, and can only be decrypted using your encryption key once it's back on one of your devices.
+У нас нет возможности читать ваши данные, как и нет ее у потенциальные перехватчики, такие как ваш интернет-провайдер.
 
-We do not have the capability of reading your data, nor do any potential eavesdroppers, such as your internet service provider.
+В исключительном случае полного взлома сервера ваши данные останутся зашифрованными, и никто не сможет расшифровать ваши файлы, не зная вашего пароля.
 
-In the rare case of a complete server breach, your data will remain encrypted, and nobody will have the ability to decrypt your files without knowing your password.
+##### Сколько удаленных хранилищ я могу иметь?
 
-##### How many remote vaults can I have?
+У каждой учетной записи с Obsidian Sync может быть до 5 удаленных хранилищ.
 
-Each account with Obsidian Sync can have up to 5 remote vaults.
+##### Как долго хранится история версий ?
 
-##### How long are version history kept?
+История версий хранится до одного года, прежде чем мы ее очищаем.
 
-Version histories are kept for up to one year before we clean it up.
+##### Насколько большим может быть каждое удаленное хранилище?
 
-##### How large can each remote vault be?
+На данный момент каждое удаленное хранилище может содержать до 4 ГБ данных, включая историю версий.
 
-At the moment, each remote vault can have up to 4 GB of data, including version history.
+##### Зашифрованы ли мои данные на моем жестком диске? 
 
-##### Is my data encrypted on my hard disk?
+Нет, ваши данные все еще находятся на жестком диске в виде обычного текста. Если вы хотите зашифровать его от людей, которые используют ваш компьютер, вам следует поискать решение для шифрования диска. 
 
-No, your data is still in plain text on your hard disk. If you wish to encrypt it from people who use your computer, you should look for a disk encryption solution.
+##### Как долго мои данные хранятся после истечения срока подписки?
 
-##### How long is my data kept after my subscription expires?
+Данные в ваших удаленных хранилищах, включая историю версий, хранятся для вас в течение одного месяца после истечения срока вашей подписки.
 
-Data in your remote vaults, including version history, is kept for one month for you, after your subscription expires.
+Если вы продлите подписку в течение одного месяца, это никак не отразится на их использовании.
 
-As long as you renew within one month, there should be no impact on your usage.
+##### Могу ли я использовать Obsidian Sync для резервного копирования?
 
-##### Can I use Obsidian Sync as a backup solution?
+Obsidian Sync разработан как сервис синхронизации данных, а не как служба резервного копирования.
 
-Obsidian Sync is designed as a data synchronization service, rather than a backup service.
+Благодаря истории версий он предоставляет некоторые функции резервного копирования, однако мы по-прежнему рекомендуем использовать дополнительные средства резервного копирования.
 
-With version history, it does provide some backup features, however we still recommend having additional backup measures.
+Obsidian Sync в настоящее время находится на стадии бета-тестирования, поэтому мы настоятельно рекомендуем создавать резервные копии на случай ошибок и сбоев программного обеспечения.
 
-Obsidian Sync is currently in beta testing, so we strongly recommend having backups, in case of software bugs and glitches.
+##### Должен ли я выбрать свой собственный пароль для шифрования?
 
-##### Should I pick my own encryption password?
+Выберите свой пароль, если вам требуется максимальный уровень безопасности и конфиденциальности. Это гарантирует, что любой, кто не знает вашего пароля, никогда не сможет прочитать ваши заметки. 
 
-Pick your password if you require the highest level of security and privacy. This guarantees that anyone who doesn't know your password will never be able to read your notes.
+Доверить нам управление вашим ключом шифрования может быть удобным вариантом, при котором вы не рискуете забыть или потерять свой пароль. 
 
-Letting us manage your encryption key is more convenient, and you do not risk forgetting or losing your password.
+Этот параметр не влияет на ваше локальное хранилище. Если вы правильно делаете резервные копии вашего локального хранилища, это может стать проблемой для вас.
 
-Your local vault is not affected by this option. If you properly backup your local vault, this may not be a problem for you.
+##### Насколько надежно сквозное шифрование?
 
-##### Is the end-to-end encryption strong?
+Мы используем промышленный стандарт AES-256 для шифрования ваших данных. AES-256 – это спецификация шифрования военного уровня, которая широко используется в онлайн-банках. 
 
-We use industry-standard AES-256 to encrypt your data. AES-256 is a military-grade encryption specification that is widely used in online banking.
+Вот технические подробности для заинтересованных:
 
-Here are the technical details for those interested:
-
-- Key derivation function used: scrypt with salt
-- Encryption algorithm used: AES-256 using GCM
+- Используемая функция деривации ключа: скрипт с солью
+- Используемый алгоритм шифрования: AES-256 с GCM
