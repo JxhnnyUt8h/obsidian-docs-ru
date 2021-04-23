@@ -1,5 +1,5 @@
-# Unofficial Russian Help documentation for Obsidian
+# Russian Help documentation for Obsidian
 
-Неофициальная Справка по работе с программой [[Obsidian]].
+Работы по переводу Справки для приложения [[Obsidian]].
 
 Обсуждение: [Obsidian Чат](https://t.me/obsidian_z)
