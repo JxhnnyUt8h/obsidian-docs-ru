@@ -2,7 +2,7 @@
 
 На данный момент возможно преобразовать:
 
-- Roam #tags в [[tags]]
+- Roam `#tags` в `[[tags]]`
 - Roam `^^highlight^^` в `==highlight==`
 - Bear `::highlight::` в `==highlight==`
 - Zettelkasten `[[UID]]` ссылки в полные ссылки `[[UID File Name]]`
