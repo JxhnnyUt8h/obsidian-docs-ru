@@ -4,7 +4,6 @@ When you want to add custom styles to your vault, there are two main ways to do 
 
 ### Темы
 
-
 Темы позволют переключать оформление вашего хранилища через выпадающее меню, после того как темы были добавлены в папку внутри хранилища.  
 
 Themes allow you to toggle the appearance of your vault with a dropdown menu once they have been added to your vault's theme directory.
@@ -20,7 +19,7 @@ If you are creating your own theme, you can do this by:
 
 For more information on how to customize styles of the graph, you can find more information in [[Граф]].
 
-### Use Themes and/or CSS snippets
+### Использование тем и/или CSS-фрагментов
 
 You can find this configuration under Appearance in the settings. You can choose a community theme or set the theme you developed yourself. If you set a community theme, it will be automatically placed in the correct folder. If you develop your own theme, you have to put it in the shown folder location yourself.
 
