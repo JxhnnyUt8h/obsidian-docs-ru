@@ -1,41 +1,39 @@
-When you want to add custom styles to your vault, there are two main ways to do this:
+Если вы хотите добавить пользовательские стили оформления для вашего хранилища, есть два основных способа сделать это: 
 
-## Vault styles
+## Стили для локального хранилища
 
 ### Темы
 
-Темы позволют переключать оформление вашего хранилища через выпадающее меню, после того как темы были добавлены в папку внутри хранилища.  
+Вы можете переключаться между стилями оформление вашего хранилища через выпадающее меню после того, как темы будут добавлены в папку с темами вашего хранилища.
 
-Themes allow you to toggle the appearance of your vault with a dropdown menu once they have been added to your vault's theme directory.
+Меню выбора тем оформления хранилища находится в разделе `Настройки` => `Оформление` => `Темы`.
 
-This configuration can be found in `Settings` > `Appearance` > `Themes` section of your vault settings.
+### Создание пользовательской темы
 
-### Create a custom theme
+Если вы создали свою собственную тему, вы можете использовать ее следующим образом: 
 
-If you are creating your own theme, you can do this by:
+1. Сохраните пользовательский CSS-файл в папку с темами: `YOUR_VAULT/.obsidian/themes/ИМЯ_ТЕМЫ.css`
+2. Выберите тему в выпадающем меню в разделе `Настройки` => `Оформление` => `Темы`.
 
-1. Creating your custom theme CSS file in the themes directory `YOUR_VAULT/.obsidian/themes/YOUR_CUSTOM_THEME.css`
-2. Enabling it in the theme dropdown under `Settings` > `Appearance` > `Themes`
-
-For more information on how to customize styles of the graph, you can find more information in [[Граф]].
+Дополнительную информации о том, как настроить стили для Графа, вы можете найти в разделе [[Граф]].
 
 ### Использование тем и/или CSS-фрагментов
 
-You can find this configuration under Appearance in the settings. You can choose a community theme or set the theme you developed yourself. If you set a community theme, it will be automatically placed in the correct folder. If you develop your own theme, you have to put it in the shown folder location yourself.
+Параметры оформления находятся в разделе Оформление в настройках приложения. Вы можете выбрать тему оформления созданную сообществом или тему которую вы создали сами. Если вы выбрали тему сообщества, она будет автоматически помещена в правильную папку. Если вы создали тему сами, ее необходимо поместить в папку: `YOUR_VAULT/.obsidian/themes/`
 
-CSS snippets are supposed to be small pieces of CSS for small changes you want to make/things you want to add. These snippets have to be placed in the shown directory.
+CSS-фрагменты – это CSS-файлы для внесения небольших изменений, которые вы хотите добавить в какую-либо тему оформления. Эти файлы необходимо разместить в специальной папке: `YOUR_VAULT/.obsidian/snippets`
 
-You can go to the respective directories by clicking on the folder buttons. If the folder isn't created yet, it will be. In case your snippets or theme don't show up after you've put them there, you can click the button next to the folder icon to refresh the list.
+Вы можете открыть соответствующие папки прямо из настроек приложения. Для этого необходимо нажать на кнопку с папкой, напротив раздела настроек с темами или с CSS-фрагментами. Если такой папки еще нет, она будет создана. Если фрагмент или тема не отображаются в меню выбора после того, как они были добавлены, вы можете нажать на кнопку обновления списка, находящуюся рядом с кнопкой открытия папки. 
 
-## Obsidian Publish styles
+## Стили для Obsidian Publish
 
-At this time, [[Obsidian Publish]] is unable to automatically detect the vault's configured [[Добавление пользовательских CSS#Themes|theme]] and publish the respective styles. 
+На данный момент [[Obsidian Publish]] не может автоматически определить какие [[Добавление пользовательских CSS#Темы|темы]] оформления выбраны в настройках хранилища и опубликовать их.
 
-A workaround for this limitation is to:
+Для обхода этого ограничения необходимо сделать следующее:
 
-1. Go into `YOUR_VAULT/.obsidian/themes/CURRENT_THEME_FOLDER`;
-2. Copy the primary CSS file `CURRENT_THEME.css` in the folder;
-3. Paste it in the root directory of your vault (`YOUR_VAULT`);
-4. Rename the CSS file as `publish.css`;
-5. In the publish plugin, upload the `publish.css` file;
-6. If your CSS doesn't take effect in a few minutes, try refreshing the browser cache as the stale CSS might have been cached.
+1. Открыть папку с темами `YOUR_VAULT/.obsidian/themes/`;
+2. Скопировать из нее основной CSS-файл `ИМЯ_ТЕМЫ.css`;
+3. Вставить его в корневую папку хранилища (`YOUR_VAULT`);
+4. Переименовать CSS-файл в `publish.css`;
+5. Использовать плагин Публикация для загрузки файла `publish.css` на сайт;
+6. Если вы не заметили изменений на сайте через несколько минут, попробуйте обновить кэш браузера, так как старый CSS мог быть кеширован.
