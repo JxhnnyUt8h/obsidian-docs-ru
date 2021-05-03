@@ -112,7 +112,7 @@ obsidian://action?param1=value&param2=value
 	
 #### Действие `hook-get-address` (получить )
 
-Описание: предназначено для использования с [Hook](https://hookproductivity.com/). Копирует markdown-ссылку на текущую активную заметку в буфер обмена в виде URL-адреса`obsidian://open`. Использование: `obsidian://hook-get-address`
+Описание: предназначено для использования с [Hook](https://hookproductivity.com/). Копирует Markdown-ссылку на текущую активную заметку в буфер обмена в виде URL-адреса`obsidian://open`. Использование: `obsidian://hook-get-address`
 
 Возможные параметры:
 
