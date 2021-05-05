@@ -8,6 +8,6 @@
 
 > [Getting Comfortable with CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
 
-Пользователь Klaas также собрал полезный перечень сниппетов CSS (фрагментов кода CSS, который может быть применен поверх используемой темы), которые вы можете свободно использовать и сочетать:
+Пользователь Klaas также собрал полезный перечень сниппетов CSS (фрагментов кода CSS, которые могут быть применены поверх используемой темы). Вы можете свободно использовать и сочетать их:
 
 > [Obsidian CSS Snippets (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)
