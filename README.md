@@ -92,4 +92,4 @@ Tag pane                       | [[Панель тегов]]                    
 Templates                      | [[Шаблоны]]                                | ✔
 Word count                     | [[Счетчик слов]]                           | ✔
 Workspaces                     | [[Пространства]]                           | ✔
-Zettelkasten prefixer          | [[Префикс Zettelkasten]]                   | ✔
+Zettelkasten prefixer          | [[Zettelkasten]]                   | ✔
