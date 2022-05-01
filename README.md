@@ -1,6 +1,6 @@
-## Russian Help documentation for Obsidian
+## Russian Help documentation for Obsidian 2.0
 
-Работы по переводу Справки для приложения [[Obsidian]].
+Продолжение работы по переводу Справки для приложения [[Obsidian]].
 
 Обсуждение: [Obsidian Чат](https://t.me/obsidian_z).
 
@@ -16,102 +16,129 @@
 - 🔥 — **NEW** — новые файлы или существенные изменения
 - ➡ — **MOVE** — перемещение
 
-English                        | Russian                                    | S
------------------------------- | ------------------------------------------ | -
-Start here                     | [[Начните здесь]]                          | ✔
-**Advanced topics**            | **Продвинутое использование**              | 📁
-Accepted file formats          | [[Поддерживаемые форматы файлов]]          | ✔
-Contributing to Obsidian       | [[Вклад в развитие Obsidian]]              | ✔
-Customizing CSS                | [[Пользовательский CSS]]                   | ✔
-Deleting files                 | [[Удаление файлов]]                        | ✔
-Drag and Drop                  | [[Перетаскивание объектов]]                | ✔
-How Obsidian stores data       | [[Как Obsidian хранит данные]]             | ✔
-HTML sanitization              | [[Очистка HTML]]                           | ✔
-Insider builds                 | [[Ранние сборки]]                          | ✔
-Third-party plugins            | [[Сторонние плагины]]                      | ✔
-Using obsidian URI             | [[Использование Obsidian URI]]             | ✔
-YAML front matter              | [[Заголовок YAML]]                         | ✔
-**Attachments**                | **Вложения**                               | 📁
-Slides demo                    | [[Демонстрация слайдов]]                   | ✔
-**Concepts**                   | **Понятия**                                | 📁
-Current version                | [[Текущая версия]]                         | 🔥
-Installer version              | [[Версия установщика]]                     | 🔥
-Interface language             | [[Язык интерфейса]]                        | 🔥
-**Customization**              | **Кастомизация**                           | 📁
-Appearance                     | [[Внешний вид]]                            | ✔
-Custom hotkeys                 | [[Пользовательские сочетания клавиш]]      | ✔
-**How to**                     | **Руководства**                            | 📁
-Add aliases to note            | [[Добавление псевдонимов к заметке]]       | ✔
-Add custom styles              | [[Добавление пользовательских CSS]]        | ✔
-Basic note taking              | [[Базовое ведение заметок]]                | ✔
-Capture information            | [[Сбор данных]]                            | ✔
-Change settings                | [[Изменение настроек]]                     | ✔
-Create notes                   | [[Создание заметок]]                       | ✔
-Embed files                    | [[Встраивание вложений в заметки]]         | ✔
-Folding                        | [[Сворачивание заголовков и списков]]      | ✔
-Format your notes              | [[Форматирование заметок]]                 | ✔
-Import data                    | [[Импорт данных]]                          | ✔
-Internal link                  | [[Создание внутренних ссылок]]             | ✔
-Link to blocks                 | [[Создание ссылок на блоки]]               | ✔
-Manage attachments             | [[Управление вложениями]]                  | ✔
-Preview and edit modes         | [[Режимы просмотра и редактирования]]      | ✔
-Rename notes                   | [[Переименование заметок]]                 | ✔
-Update Obsidian                | [[Обновление Obsidian]]                    | ✔
-Use hotkeys                    | [[Сочетания клавиш]]                       | 🔥
-Working with backlinks         | [[Работа с обратными ссылками]]            | ✔
-Working with multiple cursors  | [[Работа с несколькими курсорами]]         | ✔
-Working with multiple notes    | [[Работа с несколькими заметками]]         | ✔
-Working with multiple vaults   | [[Работа с несколькими хранилищами]]       | ✔
-Working with tags              | [[Работа с тегами]]                        | ✔
-**Licenses & add-on services** | **Лицензии и дополнительные сервисы**      | 📁
-Catalyst license               | [[Лицензия Catalyst]]                      | ✔
-Commercial license             | [[Коммерческая лицензия]]                  | ✔
-Obsidian Publish               | [[Obsidian Publish]]                       | ✔
-Obsidian Sync                  | [[Obsidian Sync]]                          | ✔
-Obsidian Unlimited             | [[Obsidian Unlimited]]                     | ✔
-Refund policy                  | [[Политика возврата средств]]              | ✔
-**Obsidian**                   | **Obsidian**                               | 📁
-Android app                    | [[Приложение для Android]]                 | ✔
-Credits                        | [[Сведения об авторах]]                    | ✔
-Index                          | [[Указатель]]                              | ✔
-iOS app                        | [[Приложение для iOS]]                     | ✔
-Mobile app beta                | [[Мобильное приложение бета-тестирование]] | ✔
-Obsidian                       | [[Obsidian]]                               | ✔
-Obsidian Mobile                | [[Мобильное приложение Obsidian]]          | ✔
-Official website               | [[Официальный сайт]]                       | 🔥
-**Plugins**                    | **Плагины**                                | 📁
-Audio recorder                 | [[Диктофон]]                               | ✔
-Backlinks                      | [[Обратные ссылки]]                        | ✔
-Command palette                | [[Палитра команд]]                         | ✔
-Daily notes                    | [[Ежедневные заметки]]                     | ✔
-File explorer                  | [[Файловый менеджер]]                      | ✔
-File recovery                  | [[Восстановление файлов]]                  | ✔
-Graph view                     | [[Граф]]                                   | ✔
-List of plugins                | [[Список плагинов]]                        | ✔
-Markdown format converter      | [[Импорт Markdown-файлов]]                 | ✔
-Note composer                  | [[Компоновщик заметок]]                    | ✔
-Open in default app            | [[Открыть в приложении по умолчанию]]      | ✔
-Outline                        | [[Структура]]                              | ✔
-Page preview                   | [[Предпросмотр страницы]]                  | ✔
-Publish                        | [[Публикация]]                             | ✔
-Quick switcher                 | [[Быстрый переход]]                        | ✔
-Random note                    | [[Случайная заметка]]                      | ✔
-Search                         | [[Поиск]]                                  | ✔
-Slides                         | [[Слайды]]                                 | ✔
-Starred notes                  | [[Избранное]]                              | ✔
-Tag pane                       | [[Панель тегов]]                           | ✔
-Templates                      | [[Шаблоны]]                                | ✔
-Word count                     | [[Счетчик слов]]                           | ✔
-Workspaces                     | [[Пространства]]                           | ✔
-Zettelkasten prefixer          | [[Zettelkasten]]                           | ✔
-**User interface**             | **Интерфейс пользователя**                 | 📁🔥
-Vault switcher                 | [[Переключатель хранилищ]]                 | 🔥
-**- Workspace**                | **Рабочее пространство**                   | 📁🔥
-**-- Panes**                   | **Области**                                | 📁➡
-Linked pane                    | [[Связанная область]]                      | ➡
-Pane layout                    | [[Расположение областей]]                  | ➡
-Ribbon                         | [[Лента]]                                  | 🔥
-Sidebar                        | [[Боковая панель]]                         | 🔥
-Status bar                     | [[Строка состояния]]                       | 🔥
-Title bar                      | [[Строка заголовка]]                       | 🔥
-Workspace                      | [[Рабочее пространство]]                    | 🔥
+English                                | Russian                                      | S
+-------------------------------------- | -------------------------------------------- | -
+Start here                             | [[Start here]]                               | 📍
+Live preview update                    | [[Live preview update]]                      | 📍
+**Advanced topics**                    | **Продвинутое использование**                | 📁
+Accepted file formats                  | [[Accepted file formats]]                    | 📍
+Community plugins                      | [[Community plugins]]                        | 📍
+Customizing CSS                        | [[Customizing CSS]]                          | 📍
+Deleting files                         | [[Deleting files]]                           | 📍
+Drag and Drop                          | [[Drag and Drop]]                            | 📍
+How Obsidian stores data               | [[How Obsidian stores data]]                 | 📍
+HTML sanitization                      | [[HTML sanitization]]                        | 📍
+Insider builds                         | [[Insider builds]]                           | 📍
+Using obsidian URI                     | [[Using obsidian URI]]                      | 📍
+YAML front matter                      | [[YAML front matter]]                        | 📍
+**Attachments**                        | **Вложения**                                 | 📁
+Slides demo                            | [[Slides demo]]                              | 📍
+**Concepts**                           | **Понятия**                                  | 📁
+Interface language                     | [[Interface language]]                       | 📍
+**Contributing to Obsidian**           | **Вклад в развитие Obsidian**                | 📁
+Financial contributions                | [[Financial contributions]]                  | 📍
+Obsidian Unlimited (donations)         | [[Obsidian Unlimited]]                       | 📍
+Themes and plugins                     | [[Themes and plugins]]                       | 📍
+Translations                           | [[Translations]]                             | 📍
+**Customization**                      | **Кастомизация**                             | 📁
+Appearance                             | [[Appearance]]                               | 📍
+Custom hotkeys                         | [[Custom hotkeys]]                           | 📍
+**Getting started**                    | **Начало работы**                            | 📁
+Create a vault                         | [[Create a vault]]                           | 📍
+Create your first note                 | [[Create your first note]]                   | 📍
+Download and install Obsidian          | [[Download and install Obsidian]]            | 📍
+Link notes                             | [[Link notes]]                               | 📍
+Sync your notes across devices         | [[Sync your notes across devices]]           | 📍
+Update Obsidian                        | [[Update Obsidian]]                          | ❓
+**How to**                             | **Руководства**                              | 📁
+Add aliases to note                    | [[Add aliases to note]]                      | 📍
+Add custom styles                      | [[Add custom styles]]                        | 📍
+Basic note taking                      | [[Basic note taking]]                        | 📍
+Capture information                    | [[Capture information]]                      | 📍
+Change settings                        | [[Change settings]]                          | 📍
+Create notes                           | [[Create notes]]                             | 📍
+Embed files                            | [[Embed files]]                              | 📍
+Folding                                | [[Folding]]                                  | 📍
+Format your notes                      | [[Format your notes]]                        | 📍
+Import data                            | [[Import data]]                              | 📍
+Internal link                          | [[Internal link]]                            | 📍
+Link to blocks                         | [[Link to blocks]]                           | 📍
+Manage attachments                     | [[Manage attachments]]                       | 📍
+Read and edit modes                    | [[Read and edit modes]]                      | 📍
+Rename notes                           | [[Rename notes]]                             | 📍
+Update Obsidian                        | [[Update Obsidian]]                          | ❓
+Use callouts                           | [[Use callouts]]                             | 📍
+Use hotkeys                            | [[Use hotkeys]]                              | 📍
+Working with backlinks                 | [[Working with backlinks]]                   | 📍
+Working with multiple cursors          | [[Working with multiple cursors]]            | 📍
+Working with multiple notes            | [[Working with multiple notes]]              | 📍
+Working with multiple vaults           | [[Working with multiple vaults ]]            | 📍
+Working with tags                      | [[Working with tags]]                        | 📍
+**Licenses & add-on services**         | **Лицензии и дополнительные сервисы**        | 📁
+Catalyst license                       | [[Catalyst license]]                         | 📍
+Commercial license                     | [[Commercial license]]                       | 📍
+Education and non-profit discount      | [[Education and non-profit discount]]        | 📍
+Gifting                                | [[Gifting]]                                  | 📍
+Obsidian Credit                        | [[Obsidian Credit]]                          | 📍
+Refund policy                          | [[Refund policy]]                            | 📍
+**Obsidian**                           | **Obsidian**                                 | 📁
+Android app                            | [[Android app]]                              | 📍
+Credits                                | [[Credits]]                                  | 📍
+Index                                  | [[Index]]                                    | 📍
+iOS app                                | [[iOS app]]                                  | 📍
+Obsidian                               | [[Obsidian]]                                 | 📍
+Official website                       | [[Official website]]                         | 📍
+**Obsidian Publish**                   | **Obsidian Publish**                         | 📁
+Customize your site                    | [[Customize your site]]                      | 📍
+Introduction to Obsidian Publish       | [[Introduction to Obsidian Publish]]         | 📍
+Manage sites                           | [[Manage sites]]                             | 📍
+Publish and unpublish notes            | [[Publish and unpublish notes]]              | 📍
+Security and privacy                   | [[Security and privacy]]                     | 📍
+Set up a custom domain                 | [[Set up a custom domain]]                   | 📍
+Set up Obsidian Publish                | [[Set up Obsidian Publish]]                  | 📍
+**Obsidian Sync**                      | **Obsidian Sync**                            | 📁
+Add another device                     | [[Add another device]]                       | 📍
+Introduction to Obsidian Sync          | [[Introduction to Obsidian Sync]]            | 📍
+Limitations                            | [[Limitations]]                              | 📍
+Local and remote vaults                | [[Local and remote vaults]]                  | 📍
+Obsidian Sync and third-party services | [[Obsidian Sync and third-party services]]   | 📍
+Security and privacy                   | [[Security and privacy]]                     | 📍
+Select files and settings to sync      | [[Select files and settings to sync]]        | 📍
+Set up Obsidian Sync                   | [[Set up Obsidian Sync]]                     | 📍
+Troubleshoot Obsidian Sync             | [[Troubleshoot Obsidian Sync]]               | 📍
+Version history                        | [[Version history]]                          | 📍
+**Plugins**                            | **Плагины**                                  | 📁
+Audio recorder                         | [[Audio recorder]]                           | 📍
+Backlinks                              | [[Backlinks]]                                | 📍
+Command palette                        | [[Command palette]]                          | 📍
+Daily notes                            | [[Daily notes ]]                             | 📍
+File explorer                          | [[File explorer]]                            | 📍
+File recovery                          | [[File recovery]]                            | 📍
+Graph view                             | [[Graph view]]                               | 📍
+Markdown format converter              | [[Markdown format converter]]                | 📍
+Note composer                          | [[Note composer]]                            | 📍
+Open in default app                    | [[Open in default app]]                      | 📍
+Outgoing links                         | [[Outgoing links]]                           | 📍
+Outline                                | [[Outline]]                                  | 📍
+Page preview                           | [[Page preview]]                             | 📍
+Quick switcher                         | [[Quick switcher]]                           | 📍
+Random note                            | [[Random note]]                              | 📍
+Search                                 | [[Search]]                                   | 📍
+Slides                                 | [[Slides]]                                   | 📍
+Starred notes                          | [[Starred notes]]                            | 📍
+Tag pane                               | [[Tag pane]]                                 | 📍
+Templates                              | [[Templates]]                                | 📍
+Word count                             | [[Word count]]                               | 📍
+Workspaces                             | [[Workspaces]]                               | 📍
+Zettelkasten prefixer                  | [[Zettelkasten prefixer]]                    | 📍
+**User interface**                     | **Интерфейс пользователя**                   | 📁
+Vault switcher                         | [[Vault switcher]]                           | 📍
+**Workspace**                          | **Рабочее пространство**                     | 📁
+Ribbon                                 | [[Ribbon]]                                   | 📍
+Sidebar                                | [[Sidebar]]                                  | 📍
+Status bar                             | [[Status bar]]                               | 📍
+Title bar                              | [[Title bar]]                                | 📍
+Workspace                              | [[Workspace]]                                | 📍
+**Panes**                              | **Области**                                  | 📁
+Linked pane                            | [[Linked pane]]                              | 📍
+Pane layout                            | [[Pane layout]]                              | 📍
