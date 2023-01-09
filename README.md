@@ -17,19 +17,19 @@
 - 🔥 — **NEW** — новые файлы или существенные изменения
 - ➡ — **MOVE** — перемещение
 
- English                                | Russian                                    | S
+ English                                | Русский                                    | S
  -------------------------------------- | ------------------------------------------ | --
  Start here                             | [[Начните здесь]]                          | 📍
  Live preview update                    | [[Live preview update]]                    | 📍
  **Advanced topics**                    | **Продвинутое использование**              | 📁
- Accepted file formats                  | [[Accepted file formats]]                  | 📍
- Deleting files                         | [[Deleting files]]                         | 📍
+ Accepted file formats                  | [[Поддерживаемые форматы файлов]]          | ✔
+ Deleting files                         | [[Удаление файлов]]                        | ✔
  Drag and Drop                          | [[Drag and Drop]]                          | 📍
  How Obsidian stores data               | [[How Obsidian stores data]]               | 📍
- HTML sanitization                      | [[Очистка HTML]]                           | 📍
+ HTML sanitization                      | [[Очистка HTML]]                           | ✔
  Insider builds                         | [[Insider builds]]                         | 📍
  Using obsidian URI                     | [[Using obsidian URI]]                     | 📍
- YAML front matter                      | [[Заголовок YAML]]                         | 📍
+ YAML front matter                      | [[YAML front matter]]                      | 📍
  **Attachments**                        | **Вложения**                               | 📁
  Slides demo                            | [[Slides demo]]                            | 📍
  **Concepts**                           | **Концепции**                              | 📁
@@ -119,31 +119,30 @@
  Troubleshoot Obsidian Sync             | [[Troubleshoot Obsidian Sync]]             | 📍
  Version history                        | [[Version history]]                        | 📍
  **Plugins**                            | **Плагины**                                | 📁
- Audio recorder                         | [[Audio recorder]]                         | 📍
- Backlinks                              | [[Backlinks]]                              | 📍
- Command palette                        | [[Command palette]]                        | 📍
- Core plugins                           | [[Core plugins]]                           | 📍
- Daily notes                            | [[Daily notes ]]                           | 📍
- File explorer                          | [[File explorer]]                          | 📍
- File recovery                          | [[File recovery]]                          | 📍
- Format converter                       | [[Format converter]]                       | 📍
- Graph view                             | [[Graph view]]                             | 📍
- Markdown format converter              | [[Markdown format converter]]              | 📍
- Note composer                          | [[Note composer]]                          | 📍
- Outgoing links                         | [[Outgoing links]]                         | 📍
- Outline                                | [[Outline]]                                | 📍
- Page preview                           | [[Page preview]]                           | 📍
- Quick switcher                         | [[Quick switcher]]                         | 📍
- Random note                            | [[Random note]]                            | 📍
- Search                                 | [[Search]]                                 | 📍
- Slash commands                         | [[Slash commands]]                         | 📍
- Slides                                 | [[Slides]]                                 | 📍
- Starred                                | [[Starred]]                                | 📍
- Tags                                   | [[Tags]]                                   | 📍
- Templates                              | [[Templates]]                              | 📍
- Unique note creator                    | [[Unique note creator]]                    | 📍
- Word count                             | [[Word count]]                             | 📍
- Workspaces                             | [[Workspaces]]                             | 📍
+ Audio recorder                         | [[Диктофон]]                               | 📍
+ Backlinks                              | [[Обратные ссылки]]                        | 📍
+ Command palette                        | [[Палитра команд]]                         | 📍
+ Core plugins                           | [[Встроенные плагины]]                     | 📍
+ Daily notes                            | [[Ежедневные заметки ]]                    | 📍
+ File explorer                          | [[Файловый менеджер]]                      | 📍
+ File recovery                          | [[Восстановление файлов]]                  | 📍
+ Format converter                       | [[Конвертер форматов]]                     | 📍
+ Graph view                             | [[Граф]]                                   | 📍
+ Note composer                          | [[Компоновщик заметок]]                    | 📍
+ Outgoing links                         | [[Исходящие ссылки]]                       | 📍
+ Outline                                | [[Структура]]                              | 📍
+ Page preview                           | [[Предпросмотр страницы]]                  | 📍
+ Quick switcher                         | [[Быстрый переход]]                        | 📍
+ Random note                            | [[Случайная заметка]]                      | 📍
+ Search                                 | [[Поиск]]                                  | 📍
+ Slash commands                         | [[Слэш-команды]]                           | 📍
+ Slides                                 | [[Слайды]]                                 | 📍
+ Starred                                | [[Избранное]]                              | 📍
+ Tags                                   | [[Панель тегов]]                           | 📍
+ Templates                              | [[Шаблоны]]                                | 📍
+ Unique note creator                    | [[Уникальный идентификатор]]               | 📍
+ Word count                             | [[Счетчик слов]]                           | 📍
+ Workspaces                             | [[Пространства]]                           | 📍
  **User interface**                     | **Интерфейс пользователя**                 | 📁
  Use tabs in Obsidian                   | [[Use tabs in Obsidian]]                   | 📍
  Vault switcher                         | [[Vault switcher]]                         | 📍

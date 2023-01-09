@@ -4,7 +4,7 @@ alias: Embed files
 
 Learn how you can embed other notes and media into your notes. By embedding files in your notes, you can reuse content across your vault.
 
-To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Internal links|Internal link]]. You can embed files in any of the [[Accepted file formats]].
+To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Internal links|Internal link]]. You can embed files in any of the [[Поддерживаемые форматы файлов]].
 
 ## Embed a note in another note
 

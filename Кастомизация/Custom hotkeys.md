@@ -6,7 +6,7 @@ For a list of default hotkeys, [[Use hotkeys|see here]].
 
 ### Viewing hotkeys
 
-The fastest way to see the hotkey set for a command is to find the command in [[Command palette]]. If there's a hotkey listed for that command, it's set.
+The fastest way to see the hotkey set for a command is to find the command in [[Палитра команд]]. If there's a hotkey listed for that command, it's set.
 
 ### Setting hotkeys
 

@@ -15,7 +15,7 @@ If you are creating your own theme, you can do this by:
 1. Creating your custom theme CSS file in the themes directory `YOUR_VAULT/.obsidian/themes/YOUR_CUSTOM_THEME.css`
 2. Enabling it in the theme dropdown under `Settings` => `Appearance` => `Themes`
 
-For more information on how to customize styles of the graph, you can find more information in [[Graph view]].
+For more information on how to customize styles of the graph, you can find more information in [[Граф]].
 
 ### Use Themes and/or CSS snippets
 

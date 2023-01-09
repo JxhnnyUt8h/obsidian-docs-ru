@@ -94,9 +94,9 @@ _Linked views_ are tabs that reference a different tab. When the content of the 
 
 For note tabs, you can use the following plugins as linked views:
 
-- [[Graph view]] (local)
-- [[Backlinks]]
-- [[Outline]]
+- [[Граф]] (local)
+- [[Обратные ссылки]]
+- [[Структура]]
 
 To open a linked view for a note tab:
 
@@ -105,4 +105,4 @@ To open a linked view for a note tab:
 
 ## Learn more
 
-- You can save and restore window layouts using the [[Workspaces]] plugin.
+- You can save and restore window layouts using the [[Пространства]] plugin.

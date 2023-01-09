@@ -40,4 +40,4 @@ In this guide, you'll enable [[Introduction to Obsidian Sync|Obsidian Sync]] for
 > [!note] Sync settings and other file types
 > By default, Sync only syncs notes and images. For information how to sync other file types, refer to [[Select files and settings to sync#Select file types to sync|Select file types to sync]].
 >
-> If you want to sync vault configuration, such as settings for [[Core plugins]], [[Custom hotkeys]], or [[Community plugins]], learn how to [[Select files and settings to sync#Sync vault configuration|Sync vault configuration]].
+> If you want to sync vault configuration, such as settings for [[Встроенные плагины]], [[Custom hotkeys]], or [[Community plugins]], learn how to [[Select files and settings to sync#Sync vault configuration|Sync vault configuration]].

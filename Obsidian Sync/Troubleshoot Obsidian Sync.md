@@ -17,7 +17,7 @@ Generally, Obsidian Sync tries to [[#Conflict resolution|resolve conflicts]] bet
 
 Unfortunately, merging conflicting notes can cause issues for users who open automatically generated daily notes on startup. To address this, Obsidian Sync adds an exception for when two notes were created on separate devices within a few minutes from each other.
 
-In this case, Obsidian Sync keeps the first note without merging the second one. You can still recover the second note using [[File recovery]].
+In this case, Obsidian Sync keeps the first note without merging the second one. You can still recover the second note using [[Восстановление файлов]].
 
 ## What does the `vault limit exceeded` error mean?
 

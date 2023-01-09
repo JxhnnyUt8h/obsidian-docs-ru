@@ -33,9 +33,9 @@ To create a link while in Editing view, use either of the following ways:
 
 -   Type `[[` in the editor and then select the file you want to create a link to.
 -   Select text in the editor and then type `[[`.
--   Open the [[Command palette]] and then select **Add internal link**.
+-   Open the [[Палитра команд]] and then select **Add internal link**.
 
-While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
+While you can link to any of the [[Поддерживаемые форматы файлов]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 
 ## Link to a heading in a note
 
@@ -83,7 +83,7 @@ For example, `[custom display text](Internal%20links.md)` appears as [custom dis
 ## Preview a linked file
 
 > [!note]
-> To preview linked files, you first need to enable [[Page preview]].
+> To preview linked files, you first need to enable [[Предпросмотр страницы]].
 
 To preview a linked file, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
 
