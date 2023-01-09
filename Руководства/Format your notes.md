@@ -225,7 +225,7 @@ Or you can enclose the target in `<>`, such as:
 [Slides Demo](<Slides Demo>)
 ```
 
-[Slides Demo](<Slides Demo>)
+[Slides demo](Slides%20demo.md Demo>)
 
 ---
 
