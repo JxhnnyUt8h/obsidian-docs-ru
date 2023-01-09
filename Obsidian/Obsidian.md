@@ -1,10 +1,10 @@
 ## What is Obsidian
 
-Obsidian is a both a Markdown editor and a knowledge base app.
+Obsidian is both a Markdown editor and a knowledge base app.
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing densely networked knowledge base.
+Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.
 
-How do we start creating a network, you ask? Let's first start making some [[Internal link|internal links]]!
+How do we start creating a network, you ask? Let's first start making some [[Internal links]]!
 
 ## How we're different
 
@@ -20,7 +20,7 @@ When the file system replaces the cloud, you get flexible options to work with y
 
 Links and connections are crucial to discovering the relations between what we know.
 
-Obsidian greatly values this, and encourages it with [[Internal link]] and [[Graph view]], among other things.
+Obsidian greatly values this, and encourages it with [[Internal links]] and [[Graph view]], among other things.
 
 As John Locke puts it...
 
@@ -30,7 +30,7 @@ As John Locke puts it...
 > 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
- 
+
 Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
 
 ==*Your own toolkit*==
@@ -51,10 +51,10 @@ On top of that, you can add isolated, independent building blocks to add feature
 
 We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
 
-We support [[Customizing CSS|custom CSS]] and have a [[Community plugins|beta plugin API]], which will enable even more interface customization and support less common use cases.
+We support [[CSS snippets]], [[Themes]], and [[Community plugins]], which enable even more interface customization and support less common use cases.
 
 ## Follow our development
 
-Obsidian is in public beta right now. We have [a roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) that you can check out.
+Curious how we continue to make Obsidian the best and most refined tool for thought-processing? Check out our [roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap) to see what we're working on.
 
 Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.

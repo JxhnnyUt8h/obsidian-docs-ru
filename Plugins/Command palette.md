@@ -2,18 +2,20 @@ Obsidian gives you access to many of the commands in Obsidian directly from your
 
 To run a command from the Command palette:
 
-1. Press Ctrl+P (or Cmd+P on macOS) to open the Command palette.
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the Command palette.
 2. Type the name of the command you want to run.
 3. Navigate to the command using the arrow keys.
-4. Press Enter.
+4. Press `Enter`.
 
-> **Tip:** The Command palette supports _fuzzy matching_, which lets you search commands even if you don't know their exact names. For example, type "scf" to find the "**S**ave **c**urrent **f**ile" command.
+> [!tip]
+> The Command palette supports _fuzzy matching_, which lets you search commands even if you don't know their exact names. For example, type "scf" to find the "**S**ave **c**urrent **f**ile" command.
 
 ## Pinned commands
 
 You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
 
-> **Tip:** If you want to quickly run frequently used commands, you can also [[Custom hotkeys#Setting hotkeys|set hotkeys]] for them.
+> [!tip]
+> If you want to quickly run frequently used commands, you can also [[Custom hotkeys#Setting hotkeys|set hotkeys]] for them.
 
 ### Pin a command
 
@@ -21,7 +23,7 @@ You can pin frequently used commands at the top of the Command palette to quickl
 2. In the sidebar, click **Command palette** under **Plugin options**.
 3. Next to **New pinned command**, click **Select a command**.
 4. Select the command you want to pin from the list.
-5. Press Enter.
+5. Press `Enter`.
 
 ### Unpin a command
 
