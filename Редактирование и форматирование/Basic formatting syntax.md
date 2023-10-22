@@ -84,7 +84,7 @@ You can quote text by adding a `>` symbols before the text.
 \- Doug Engelbart, 1961
 
 > [!tip]
-> You can turn your quote into a [[Callouts|callout]] by adding `[!info]` as the first line in a quote.
+> You can turn your quote into a [[Выносные блоки|callout]] by adding `[!info]` as the first line in a quote.
 
 ## Code
 

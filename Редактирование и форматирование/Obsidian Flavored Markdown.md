@@ -16,5 +16,5 @@ Syntax | Description
 `` ``` ``  | [[Basic formatting syntax#Code blocks\|Code blocks]]
 `- [ ]`  | [[Basic formatting syntax#Task lists\|Incomplete task]]
 `- [x]`  | [[Basic formatting syntax#Task lists\|Completed task]]
-`> [!note]` | [[Callouts]]
+`> [!note]` | [[Выносные блоки]]
 | (see link) | [[Advanced formatting syntax#Tables\|Tables]]

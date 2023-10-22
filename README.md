@@ -38,7 +38,7 @@ Custom hotkeys                         | [[Custom hotkeys]]                     
 Advanced formatting syntax             | [[Advanced formatting syntax ]]            | 📍
 Attachments                            | [[Attachments]]                            | 📍
 Basic formatting syntax                | [[Basic formatting syntax]]                | 📍
-Callouts                               | [[Callouts]]                               | 📍
+Callouts                               | [[Выносные блоки]]                               | 📍
 Editing and previewing Markdown        | [[Editing and previewing Markdown]]        | 📍
 Embedding web pages                    | [[Embedding web pages]]                    | 📍
 Folding                                | [[Folding]]                                | 📍
