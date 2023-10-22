@@ -1,5 +1,8 @@
 ---
-aliases: alias, aliases, Add aliases to note
+aliases: 
+- alias
+- aliases
+- How to/Add aliases to note
 ---
 
 If you want to reference a file using different names, consider adding _aliases_ to the note. An alias is an alternative name for a note.
@@ -8,31 +11,11 @@ Use aliases for things like acronyms, nicknames, or to refer to a note in a diff
 
 ## Add an alias to a note
 
-To add an alias for a note, add an `alias`, or `aliases`, property in the note [[YAML front matter|front matter]]:
+To add an alias for a note, add `aliases` property in the note [[Properties]]. Aliases should always be formatted as a list in YAML.
 
 ```md
 ---
-alias: Doggo
----
-
-# Dog
-```
-
-You can add multiple aliases using commas:
-
-```md
----
-aliases: Doggo, Woofer, Yapper
----
-
-# Dog
-```
-
-Or, you can also add multiple aliases using a YAML array:
-
-```md
----
-aliases: 
+aliases:
   - Doggo
   - Woofer
   - Yapper
@@ -55,7 +38,7 @@ Obsidian creates the link with the alias as its custom display text, for example
 
 ## Find unlinked mentions for an alias
 
-By using [[Обратные ссылки]], you can find unlinked mentions of aliases. 
+By using [[Обратные ссылки]], you can find unlinked mentions of aliases.
 
 For example, after setting "AI" as an alias for "Artificial intelligence", you can see mentions of "AI" in other notes.
 

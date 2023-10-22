@@ -22,7 +22,7 @@ To enable Live Preview for an existing vault:
 6. In the sidebar, click **Editor**.
 7. Under **General**, set **Default editing mode** to **Live Preview**.
 
-When you open a new pane, it'll use Live Preview by default. If you already have some panes open, they'll be in _Source mode_.
+When you open a new tab, it'll use Live Preview by default. If you already have some tabs open, they'll be in _Source mode_.
 
 ## Edit notes using Live Preview or Source mode
 
@@ -30,14 +30,14 @@ We think you're going to love Live Preview. But if you want to keep your current
 
 To toggle between Live Preview and Source mode:
 
-1. In the upper right corner of the pane, click **More options** (the three dots).
+1. In the upper right corner of the tab, click **More options** (the three dots).
 2. Select **Toggle source/live preview mode**.
 
 You can also toggle the editing view by opening the Command palette and searching for the **Toggle source/live preview mode command**, or change it permanently by setting **Default editing mode** to Source mode.
 
 Live Preview and Source mode are two ways to edit your Markdown notes in Obsidian. Try them out to see which one you prefer!
 
-If you want to know how the terminology changes with the new features, here's a handy chart by [[Credits#^a4b3a2|Argentum]]:
+If you want to know how the terminology changes with the new features, here's a handy chart by [[Сведения об авторах#^a4b3a2|Argentum]]:
 
 ![[Editor update chart.png]]
 

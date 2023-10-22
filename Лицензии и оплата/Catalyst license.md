@@ -1,3 +1,8 @@
+---
+aliases:
+- Licenses & Payment/Catalyst license
+---
+
 While Obsidian is free of charge for personal use, you can support the Obsidian development by purchasing a _Catalyst_ license.
 
 While the Catalyst license doesn't grant you any additional features inside the app itself, you'll receive exclusive benefits, such as:
@@ -13,14 +18,15 @@ While the Catalyst license doesn't grant you any additional features inside the 
 
 The Catalyst license consists of three tiers: *Insider*, *Supporter*, and *VIP*.
 
-| Benefits                                | Insider | Supporter |   VIP    |
-|-----------------------------------------|:-------:|:---------:|:--------:|
-| Early access to Insider builds          |    ✓    |     ✓     |    ✓     |
-| Access to exclusive development channel |    ✓    |     ✓     |    ✓     |
-| Insider community badge                 |    ✓    |           |          |
-| Supporter community badge               |         |     ✓     |          |
-| VIP community badge                     |         |           |    ✓     |
-| **Pricing**                             | **$25** |  **$50**  | **$100** |
+| Benefits                                                                              | Insider | Supporter |   VIP    |
+|---------------------------------------------------------------------------------------|:-------:|:---------:|:--------:|
+| Early access to Insider builds                                                        |    ✓    |     ✓     |    ✓     |
+| Access to exclusive development channels, `#insider-desktop` and `#insider-mobile` |    ✓    |     ✓     |    ✓     |
+| Access to exclusive lounge channel, `#vip-lounge`                                 |         |     ✓     |    ✓     |
+| Insider community badge                                                               |    ✓    |           |          |
+| Supporter community badge                                                             |         |     ✓     |          |
+| VIP community badge                                                                   |         |           |    ✓     |
+| **Pricing**                                                                           | **$25** |  **$50**  | **$100** |
 
 _Prices are in USD._
 
@@ -37,13 +43,13 @@ Once you've purchased a Catalyst license, you can access a range of benefits. Le
 
 1. If you haven't already, join our [forum](https://forum.obsidian.md/).
 2. Browse to your [Obsidian account page](https://obsidian.md/account).
-3. Under **Your license** -> **Obsidian Catalyst**, click **Get forum badge**.
+3. Under **Your license → Obsidian Catalyst**, click **Get forum badge**.
 
 ### Get your Discord badge
 
 1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
 2. Browse to your [Obsidian account page](https://obsidian.md/account).
-3. Under **Your license** -> **Obsidian Catalyst**, click **Get Discord badge**.
+3. Under **Your license → Obsidian Catalyst**, click **Get Discord badge**.
 
 ### Join our Insider channels
 
