@@ -6,7 +6,7 @@ An **alias** is a type of [[#property]] that defines alternative names for a [[#
 
 ## attachment
 
-An **attachment** is an [[Accepted file formats|accepted file format]] that was created outside of the vault and added later.
+An **attachment** is an [[Поддерживаемые форматы файлов|accepted file format]] that was created outside of the vault and added later.
 
 ## command
 

@@ -1,8 +1,7 @@
 ## Russian Help documentation for Obsidian 1.0 and higher
 
-Продолжение работы по переводу Справки для приложения [[Obsidian]].
-
-Обсуждение: [Obsidian Чат](https://t.me/obsidian_z).
+- Продолжение работы по переводу Справки для приложения [[Obsidian]].
+- Обсуждение: [Obsidian Чат](https://t.me/obsidian_z).
 
 ### To-Do
 
@@ -55,7 +54,7 @@ CSS snippets                           | [[CSS snippets]]                       
 Plugin security                        | [[Plugin security]]                        | 📍
 Themes                                 | [[Themes]]                                 | 📍
 **Files and folders**                      | **Файлы и папки**                          | 📁
-Accepted file formats                  | [[Accepted file formats]]                  | 📍
+Accepted file formats                  | [[Поддерживаемые форматы файлов]]          | ✔
 How Obsidian stores data               | [[How Obsidian stores data]]               | 📍
 Manage notes                           | [[Manage notes]]                           | 📍
 Manage vaults                          | [[Manage vaults]]                          | 📍

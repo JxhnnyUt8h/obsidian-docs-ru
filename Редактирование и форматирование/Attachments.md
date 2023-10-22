@@ -2,11 +2,11 @@
 aliases: How to/Manage attachments
 ---
 
-You can import [[Accepted file formats]], or _attachments_, to your vault, such as images, audio files, or PDFs. Attachments are regular files that you can access using your file system.
+You can import [[Поддерживаемые форматы файлов]], or _attachments_, to your vault, such as images, audio files, or PDFs. Attachments are regular files that you can access using your file system.
 
 ## Add an attachment
 
-You can add attachments to your vault in multiple ways. Only [[Accepted file formats]] can be added.
+You can add attachments to your vault in multiple ways. Only [[Поддерживаемые форматы файлов]] can be added.
 
 > [!todo]- Copy and paste attachments
 > You can paste attachments directly into your notes. Obsidian creates a file with the pasted content in the default attachment location and [[Embedding files|embeds]] it in the note.
